@@ -1,10 +1,17 @@
 {
   "name": "NODE",
   "version": "0.0.0",
-  "description": "Sample application to learn about npm and node",
+  "description": "Application to try out node packages",
   "main": "main.js",
   "dependencies": {
-    "express": "^4.14.0"
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "csurf": "^1.9.0",
+    "express": "^4.14.0",
+    "express-stormpath": "^3.1.5",
+    "forms": "^1.2.0",
+    "jade": "^1.11.0",
+    "xtend": "^4.0.1"
   },
   "devDependencies": {},
   "scripts": {
